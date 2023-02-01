@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    align-items: center;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(to left, #a2d9ff, rgb(244, 245, 248));
+}
+ul {
+    list-style: none;
+}
+.conteiner { 
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.nav_link {
+    width: 100%;
+    font-size: 1.5rem; 
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav_list {
+    margin-top: -0.2rem;
+    width: 100%;
+
+    background-color: #a2d9ff ;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-evenly
+}
+.nav_link:hover {
+    color: black;
+    opacity: 50%;
+}
+.footer {
+    text-align: center;
+}
+.Titulo {
+    width: 100%;
+    height: 100%;
+    color: blue; text-align: center; font-size: 2.5rem ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Copodenieve {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation: animation-div;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes animation-div {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale();
+    }
+}
+.Subtitulo { 
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-top: 2rem;
+    font-weight: 500;
+    margin: 2rem 25%;
+    padding: 1rem 0;
+    border: #a2d9ff 4px outset;
+    width:50%;
+    background-color: #a2d9ff;
+}
+.servicioficialde {
+    text-align: left;
+    margin-top: 8rem ;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.friguzrefrigeracion {
+    width: 100%;
+}
+footer {
+    background-color: rgb(3, 3, 3);
+}
+.footer-sm {
+    color: white;
+}
+.footer-sm a {
+    color: white;
+}
+.footer-sm a i {
+    font-size: 1rem;
+}
+.footer-sm__icons {
+    text-align: center;
+}
+.footer-bottom__copyright {
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+.footer-bottom__copyright a {
+    color: gray;
+    text-decoration: none;
+}
+.footer-bottom__copyright a:hover {
+    color: #3019ff;
+    text-decoration: underline;
+}
+.grid-marcas {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px 200px 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*servicios*/
+.Servicios {
+    margin-top: 2rem;
+}
+.serviciotecnico {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.domestico {
+    margin-top: 1rem 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.domesticoselect {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.comercial {
+    margin-top: 5rem 1 rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.comercialselect {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.vermiorden {
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+.repuestos {
+    margin-top: 1rem;
+}
+.consultastock {
+    padding: 1rem;
+}
+
+/*blog*/
+.mantenteinformado {
+    margin-top: 2rem;
+}
+.videos {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 1fr 1fr;
+}
+.mantenteinformado {
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+.videos {
+    height: 1000px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns:repeat(2, 5fr);
+    grid-template-rows: repeat(2, 5fr);
+    text-align: center;
+}
+.Video1 {
+height: 100px;
+margin-top: 4rem;
+}
+.mantenimientolav {
+    height: 50px;
+}
+.Video2 {
+height: 100px;
+margin-top: 4rem;
+}
+.mantenimientoaire {
+    height: 50px;
+    
+}
+.loremblog1 {
+height: 200px;
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+}
+.loremblog2 {
+    height: 200px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+}
+/*nosotros*/
+.nosotros {
+    margin-top: 3rem;
+    height: 50px;
+    text-align: center;
+}
+.contrary {
+    padding: 50px;
+}
+.conteinernosotros {
+    height: 500px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns:repeat(3, 32%);
+    grid-template-rows: repeat(1, 300px);
+    justify-items: center;
+    align-items: center;
+}
+.twocolle {
+    width: 80%;
+}
+.grouppeople {
+    width: 80%;
+}
+.maleworker {
+    width: 80%;
+}
+/*contacto*/
+.contacto {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.sectioncontacto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+}
+.datoscontacto {
+    height: 450px;
+    width: 100%;
+    margin-top: 5rem;
+}
+.nombreyapellido {
+    margin-top: 0.2rem;
+}
+.mail {
+    margin-top: 0.5rem;
+}
+.telefono {
+    margin-top: 0.5rem;
+}
+.orden {
+    margin-top: 0.5rem;
+}
+.direccion {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+.mapa {
+    width: 80%;
+    margin: 3rem;
+}
+.datoscontacto {
+    padding: 1.5rem;
+}
+.footer-sm {
+    margin-top: 3rem;
+}
